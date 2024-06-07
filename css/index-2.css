@@ -2,3 +2,20 @@ body{
     margin: 0;
     padding: 0;
 }
+
+table,td{
+    border-collapse: collapse;
+    border: 1px dotted darkorange;
+    background-color: bisque;
+
+}
+
+table{
+    width: 40%;
+    margin: auto;
+}
+
+td{
+    padding: 25px;
+    text-align: center;
+}

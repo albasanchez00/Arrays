@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Contenedor Datos */
+.contenedor_Datos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+table{
+    width: 40%;
+    margin: auto;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px dotted darkorange;
+    background-color: bisque;
+}
+
+
+/* Resultados */
+.contenedor_resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultado{
+    width: 768px;
+}
+
+#equipo-ganador{
+    text-align: center;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
